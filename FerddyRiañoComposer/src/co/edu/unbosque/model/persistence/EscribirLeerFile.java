@@ -8,7 +8,7 @@ public class EscribirLeerFile {
 	
 	private String archivodata = "c:\\data\\datanumeros.txt";
 	
-	public int escribirarchivo(String dato) {
+	public int escribirArchivo(String dato) {
 		
 		JFileChooser j = new JFileChooser();
 		j.showSaveDialog(j);

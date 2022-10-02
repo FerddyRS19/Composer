@@ -19,7 +19,7 @@ public class GestionMusical {
 		
 		public void gestionarArchivo() {
 			EscribirLeerFile archivo = new EscribirLeerFile();
-			archivo.escribirarchivo(getL().getCancion());
+			archivo.escribirArchivo(getL().getCancion());
 		}
 		
 		public String gestionarPropiedades() {
