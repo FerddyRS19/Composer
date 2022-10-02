@@ -12,7 +12,7 @@ public class GestionMusical {
 			g = new GeneracionCanciones();
 			this.nombreCancion = "";
 		}
-	
+
 		public void nombrarCancion() {
 			g.setCancion(this.nombreCancion + "\n" + g.getCancion());
 		}
