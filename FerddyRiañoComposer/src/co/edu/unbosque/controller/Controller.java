@@ -16,7 +16,7 @@ public class Controller {
 		String aux = view.leerCaracteres("Ingresa el nombre que le deseas poner a la cancion.");
 		gm.setNombreCancion(aux);
 		gm.nombrarCancion();
-		view.mostrarInformacion(gm.getL().generarCancion());
+		view.mostrarInformacion(gm.getG().generarCancion());
 		gm.gestionarArchivo();
 		view.mostrarInformacion(gm.gestionarPropiedades());
 	}

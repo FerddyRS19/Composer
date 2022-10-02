@@ -42,7 +42,7 @@ public class GeneracionCanciones {
 		return this.frase;
 		}
 
-		private static int numeroAleatorio(int minimo, int maximo) {
+		public static int numeroAleatorio(int minimo, int maximo) {
 		
 		return ThreadLocalRandom.current().nextInt(minimo, maximo + 1);
 		}

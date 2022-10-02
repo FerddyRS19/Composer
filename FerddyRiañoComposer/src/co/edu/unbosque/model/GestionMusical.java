@@ -19,21 +19,13 @@ public class GestionMusical {
 		
 		public void gestionarArchivo() {
 			EscribirLeerFile archivo = new EscribirLeerFile();
-			archivo.escribirArchivo(getL().getCancion());
+			archivo.escribirArchivo(getG().getCancion());
 		}
 		
 		public String gestionarPropiedades() {
 			Propiedades prop = new Propiedades();
 			prop.escribirPropiedades();
 			return "Las propiedades son: " + "\n" + prop.leerPropiedades();
-		}
-		
-		public GeneracionCanciones getL() {
-			return g;
-		}
-
-		public void setL(GeneracionCanciones l) {
-			this.g = l;
 		}
 
 		public String getNombreCancion() {
@@ -43,4 +35,13 @@ public class GestionMusical {
 		public void setNombreCancion(String nombreCancion) {
 			this.nombreCancion = nombreCancion;
 		}
+
+		public GeneracionCanciones getG() {
+			return g;
+		}
+
+		public void setG(GeneracionCanciones g) {
+			this.g = g;
+		}
+		
 }
