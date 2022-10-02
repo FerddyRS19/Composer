@@ -12,7 +12,6 @@ public class View {
 		String aux2 = JOptionPane.showInputDialog(mensaje);
 		String dato2 = aux2;
 		return dato2;
-		
 	}
 	
 	public void mostrarInformacion(String mensaje) {
