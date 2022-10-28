@@ -1,18 +1,13 @@
 package co.edu.unbosque.view;
 
-import java.awt.Color;
-import java.awt.GridLayout;
-import java.time.OffsetTime;
 import java.util.Timer;
 import java.util.TimerTask;
-import java.util.function.Function;
 
-import javax.swing.BorderFactory;
-import javax.swing.JButton;
+
+
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JTextField;
-import javax.swing.border.TitledBorder;
+
 
 public class PanelNumeros extends JPanel{
 	
@@ -25,32 +20,37 @@ public class PanelNumeros extends JPanel{
 	
 	public PanelNumeros() {
 		setLayout(null);
-	
+		numero = new JLabel("Numero:");
+		numero.setBounds(20, 65, 100, 30);
+		numero1 = new JLabel("1");
+		numero1.setBounds(160, 10, 140, 140);
+		numero2 = new JLabel("2");
+		numero2.setBounds(320, 10, 140, 140);
+		numero3 = new JLabel("3");
+		numero3.setBounds(460, 10, 140, 140);
+		numero4 = new JLabel("4");
+		numero4.setBounds(600, 10, 140, 140);
+		add(numero);
+		add(numero1);
+		add(numero2);
+		add(numero3);
+		add(numero4);
 		Timer timer = new Timer();
-		timer.scheduleAtFixedRate(new TimerTask() {
+		TimerTask task = new TimerTask() {
+			int i = 5;
 			public void run() {
-				numero = new JLabel("Numero:");
-				numero.setBounds(20, 65, 100, 30);
-				numero1 = new JLabel("1");
-				numero1.setBounds(160, 10, 140, 140);
-				numero2 = new JLabel("2");
-				numero2.setBounds(320, 10, 140, 140);
-				numero3 = new JLabel("3");
-				numero3.setBounds(460, 10, 140, 140);
-				numero4 = new JLabel("4");
-				numero4.setBounds(600, 10, 140, 140);
-				add(numero);
-				add(numero1);
-				add(numero2);
-				add(numero3);
-				add(numero4);
+				if(i < 1) {
+					remove(numero1);
+					remove(numero2);
+					remove(numero3);
+					remove(numero4);
+					timer.cancel();
+				}
+				i--;
 			}
-		}, 0, 5000);
+		};
+		timer.schedule(task, 0, 1000);
 	}
 	
-	
-	
-
-
 }
 
