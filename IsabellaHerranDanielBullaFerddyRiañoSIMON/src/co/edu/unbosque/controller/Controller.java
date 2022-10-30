@@ -44,7 +44,7 @@ public class Controller implements ActionListener{
 				gui.mostrarInformacion("Secuencia exitosa!");
 				System.exit(0);
 			}else {
-				gui.mostrarInformacion("Fallaste!");
+				gui.mostrarError("Fallaste!");
 				System.exit(0);
 			}
 		}

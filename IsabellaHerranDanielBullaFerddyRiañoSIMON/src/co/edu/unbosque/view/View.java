@@ -116,6 +116,10 @@ public class View extends JFrame{
 	public void mostrarInformacion(String mensaje) {
 		JOptionPane.showMessageDialog(null, mensaje);
 	}
+	
+	public void mostrarError(String mensaje) {
+		JOptionPane.showMessageDialog(null, mensaje, null, JOptionPane.ERROR_MESSAGE);
+	}
 
 	public PanelNumeros getPanelNumeros() {
 		return panelNumeros;
