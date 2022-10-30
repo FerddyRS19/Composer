@@ -26,12 +26,16 @@ public class PanelBotones extends JPanel{
 		setLayout( new GridLayout(2,4) );
 		b1 = new JButton("Numero1");
 		b1.setActionCommand(Numero1);
+		b1.setEnabled(false);
 		b2 = new JButton("Numero2");
 		b2.setActionCommand(Numero2);
+		b2.setEnabled(false);
 		b3 = new JButton("Numero3");
 		b3.setActionCommand(Numero3);
+		b3.setEnabled(false);
 		b4 = new JButton("Numero4");
 		b4.setActionCommand(Numero4);
+		b4.setEnabled(false);
 		add(new JLabel(""));
 		add(b1);
 		add(b2);

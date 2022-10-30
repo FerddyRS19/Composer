@@ -22,6 +22,7 @@ public class Controller implements ActionListener{
 	
 	public void funcionar() {
 		gui.getPanelNumeros().generarNumeroAleatorio();
+		gui.borrarNumero();
 	}
 	
 	@Override
@@ -41,10 +42,10 @@ public class Controller implements ActionListener{
 		if(evento.getActionCommand().equals(gui.getPanelTerminar().TERMINAR)){
 			if(Integer.parseInt(ningresado) == Integer.parseInt(gui.getPanelNumeros().getNgenerado())) {
 				gui.mostrarInformacion("Secuencia exitosa!");
+				System.exit(0);
 			}else {
 				gui.mostrarInformacion("Fallaste!");
-				gui.mostrarInformacion(ningresado);
-				gui.mostrarInformacion(gui.getPanelNumeros().getNgenerado());
+				System.exit(0);
 			}
 		}
 		

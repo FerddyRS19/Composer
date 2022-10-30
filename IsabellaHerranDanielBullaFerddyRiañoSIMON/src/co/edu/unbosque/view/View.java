@@ -1,6 +1,8 @@
 package co.edu.unbosque.view;
 
 import java.awt.BorderLayout;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
@@ -44,6 +46,21 @@ public class View extends JFrame{
 		panelBotones.getB3().addActionListener(control);
 		panelBotones.getB4().addActionListener(control);
 		panelTerminar.getButTerminar().addActionListener(control);
+	}
+	
+	public void borrarNumero() {
+		Timer timer = new Timer();
+		TimerTask tarea = new TimerTask() {
+			public void run() {
+				panelBotones.getB1().setEnabled(true);
+				panelBotones.getB2().setEnabled(true);
+				panelBotones.getB3().setEnabled(true);
+				panelBotones.getB4().setEnabled(true);
+				
+			}
+			
+		};
+		timer.schedule(tarea, 5000);
 	}
 	
 	public void mostrarInformacion(String mensaje) {
