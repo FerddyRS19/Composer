@@ -180,9 +180,6 @@ public class PanelNumeros extends JPanel{
 		}
 		ngenerado = String.valueOf(naleatorio1) + String.valueOf(naleatorio2) + String.valueOf(naleatorio3) + String.valueOf(naleatorio4);
 	}
-	public void borrarEtiquetas() {
-		
-	}
 
 	public JLabel getNumero() {
 		return numero;

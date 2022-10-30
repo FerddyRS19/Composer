@@ -1,10 +1,13 @@
 package co.edu.unbosque.view;
 
 import java.awt.BorderLayout;
+import java.awt.Image;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
 import co.edu.unbosque.controller.Controller;
@@ -56,7 +59,54 @@ public class View extends JFrame{
 				panelBotones.getB2().setEnabled(true);
 				panelBotones.getB3().setEnabled(true);
 				panelBotones.getB4().setEnabled(true);
-				
+				ImageIcon imn1p1 = new ImageIcon(getClass().getResource("/Imagenes/Gris.png"));
+				ImageIcon iconon1p1 = new ImageIcon(imn1p1.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
+				panelNumeros.getNumero1p1().setIcon(iconon1p1);
+				ImageIcon imn1p2 = new ImageIcon(getClass().getResource("/Imagenes/Gris.png"));
+				ImageIcon iconon1p2 = new ImageIcon(imn1p2.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
+				panelNumeros.getNumero1p2().setIcon(iconon1p2);
+				ImageIcon imn1p3 = new ImageIcon(getClass().getResource("/Imagenes/Gris.png"));
+				ImageIcon iconon1p3 = new ImageIcon(imn1p3.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
+				panelNumeros.getNumero1p3().setIcon(iconon1p3);
+				ImageIcon imn1p4 = new ImageIcon(getClass().getResource("/Imagenes/Gris.png"));
+				ImageIcon iconon1p4 = new ImageIcon(imn1p4.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
+				panelNumeros.getNumero1p4().setIcon(iconon1p4);
+				ImageIcon imn2p1 = new ImageIcon(getClass().getResource("/Imagenes/Gris.png"));
+				ImageIcon iconon2p1 = new ImageIcon(imn2p1.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
+				panelNumeros.getNumero2p1().setIcon(iconon2p1);
+				ImageIcon imn2p2 = new ImageIcon(getClass().getResource("/Imagenes/Gris.png"));
+				ImageIcon iconon2p2 = new ImageIcon(imn2p2.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
+				panelNumeros.getNumero2p2().setIcon(iconon2p2);
+				ImageIcon imn2p3 = new ImageIcon(getClass().getResource("/Imagenes/Gris.png"));
+				ImageIcon iconon2p3 = new ImageIcon(imn2p3.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
+				panelNumeros.getNumero2p3().setIcon(iconon2p3);
+				ImageIcon imn2p4 = new ImageIcon(getClass().getResource("/Imagenes/Gris.png"));
+				ImageIcon iconon2p4 = new ImageIcon(imn2p4.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
+				panelNumeros.getNumero2p4().setIcon(iconon2p4);
+				ImageIcon imn3p1 = new ImageIcon(getClass().getResource("/Imagenes/Gris.png"));
+				ImageIcon iconon3p1 = new ImageIcon(imn3p1.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
+				panelNumeros.getNumero3p1().setIcon(iconon3p1);
+				ImageIcon imn3p2 = new ImageIcon(getClass().getResource("/Imagenes/Gris.png"));
+				ImageIcon iconon3p2 = new ImageIcon(imn3p2.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
+				panelNumeros.getNumero3p2().setIcon(iconon3p2);
+				ImageIcon imn3p3 = new ImageIcon(getClass().getResource("/Imagenes/Gris.png"));
+				ImageIcon iconon3p3 = new ImageIcon(imn3p3.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
+				panelNumeros.getNumero3p3().setIcon(iconon3p3);
+				ImageIcon imn3p4 = new ImageIcon(getClass().getResource("/Imagenes/Gris.png"));
+				ImageIcon iconon3p4 = new ImageIcon(imn3p4.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
+				panelNumeros.getNumero3p4().setIcon(iconon3p4);
+				ImageIcon imn4p1 = new ImageIcon(getClass().getResource("/Imagenes/Gris.png"));
+				ImageIcon iconon4p1 = new ImageIcon(imn4p1.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
+				panelNumeros.getNumero4p1().setIcon(iconon4p1);
+				ImageIcon imn4p2 = new ImageIcon(getClass().getResource("/Imagenes/Gris.png"));
+				ImageIcon iconon4p2 = new ImageIcon(imn4p2.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
+				panelNumeros.getNumero4p2().setIcon(iconon4p2);
+				ImageIcon imn4p3 = new ImageIcon(getClass().getResource("/Imagenes/Gris.png"));
+				ImageIcon iconon4p3 = new ImageIcon(imn4p3.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
+				panelNumeros.getNumero4p3().setIcon(iconon4p3);
+				ImageIcon imn4p4 = new ImageIcon(getClass().getResource("/Imagenes/Gris.png"));
+				ImageIcon iconon4p4 = new ImageIcon(imn4p4.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
+				panelNumeros.getNumero4p4().setIcon(iconon4p4);
 			}
 			
 		};
