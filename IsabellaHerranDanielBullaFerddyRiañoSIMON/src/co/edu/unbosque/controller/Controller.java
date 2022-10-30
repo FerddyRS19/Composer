@@ -2,8 +2,6 @@ package co.edu.unbosque.controller;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import co.edu.unbosque.model.ClaseX;
 import co.edu.unbosque.model.Fachadita;
 import co.edu.unbosque.view.View;
 
