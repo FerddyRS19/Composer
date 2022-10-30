@@ -39,66 +39,82 @@ public class PanelNumeros extends JPanel{
 		numero = new JLabel("Numero:");
 		numero.setBounds(20, 65, 100, 30);
 		add(numero);
+		
 		numero1p1 = new JLabel("1");
 		ImageIcon imn1p1 = new ImageIcon(getClass().getResource("/Imagenes/1.png"));
 		ImageIcon iconon1p1 = new ImageIcon(imn1p1.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
 		numero1p1.setIcon(iconon1p1);
+		
 		numero1p2 = new JLabel("1");
 		ImageIcon imn1p2 = new ImageIcon(getClass().getResource("/Imagenes/1.png"));
 		ImageIcon iconon1p2 = new ImageIcon(imn1p2.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
 		numero1p2.setIcon(iconon1p2);
+		
 		numero1p3 = new JLabel("1");
 		ImageIcon imn1p3 = new ImageIcon(getClass().getResource("/Imagenes/1.png"));
 		ImageIcon iconon1p3 = new ImageIcon(imn1p3.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
 		numero1p3.setIcon(iconon1p3);
+		
 		numero1p4 = new JLabel("1");
 		ImageIcon imn1p4 = new ImageIcon(getClass().getResource("/Imagenes/1.png"));
 		ImageIcon iconon1p4 = new ImageIcon(imn1p4.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
 		numero1p4.setIcon(iconon1p4);
+		
 		numero2p1 = new JLabel("2");
 		ImageIcon imn2p1 = new ImageIcon(getClass().getResource("/Imagenes/2.png"));
 		ImageIcon iconon2p1 = new ImageIcon(imn2p1.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
 		numero2p1.setIcon(iconon2p1);
+		
 		numero2p2 = new JLabel("2");
 		ImageIcon imn2p2 = new ImageIcon(getClass().getResource("/Imagenes/2.png"));
 		ImageIcon iconon2p2 = new ImageIcon(imn2p2.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
 		numero2p2.setIcon(iconon2p2);
+		
 		numero2p3 = new JLabel("2");
 		ImageIcon imn2p3 = new ImageIcon(getClass().getResource("/Imagenes/2.png"));
 		ImageIcon iconon2p3 = new ImageIcon(imn2p3.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
 		numero2p3.setIcon(iconon2p3);
+		
 		numero2p4 = new JLabel("2");
 		ImageIcon imn2p4 = new ImageIcon(getClass().getResource("/Imagenes/2.png"));
 		ImageIcon iconon2p4 = new ImageIcon(imn2p4.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
 		numero2p4.setIcon(iconon2p4);
+		
 		numero3p1 = new JLabel("3");
 		ImageIcon imn3p1 = new ImageIcon(getClass().getResource("/Imagenes/3.png"));
 		ImageIcon iconon3p1 = new ImageIcon(imn3p1.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
 		numero3p1.setIcon(iconon3p1);
+		
 		numero3p2 = new JLabel("3");
 		ImageIcon imn3p2 = new ImageIcon(getClass().getResource("/Imagenes/3.png"));
 		ImageIcon iconon3p2 = new ImageIcon(imn3p2.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
 		numero3p2.setIcon(iconon3p2);
+		
 		numero3p3 = new JLabel("3");
 		ImageIcon imn3p3 = new ImageIcon(getClass().getResource("/Imagenes/3.png"));
 		ImageIcon iconon3p3 = new ImageIcon(imn3p3.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
 		numero3p3.setIcon(iconon3p3);
+		
 		numero3p4 = new JLabel("3");
 		ImageIcon imn3p4 = new ImageIcon(getClass().getResource("/Imagenes/3.png"));
 		ImageIcon iconon3p4 = new ImageIcon(imn3p4.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
 		numero3p4.setIcon(iconon3p4);
+		
 		numero4p1 = new JLabel("4");
 		ImageIcon imn4p1 = new ImageIcon(getClass().getResource("/Imagenes/4.png"));
 		ImageIcon iconon4p1 = new ImageIcon(imn4p1.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
 		numero4p1.setIcon(iconon4p1);
+		
 		numero4p2 = new JLabel("4");
 		ImageIcon imn4p2 = new ImageIcon(getClass().getResource("/Imagenes/4.png"));
 		ImageIcon iconon4p2 = new ImageIcon(imn4p2.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
 		numero4p2.setIcon(iconon4p2);
+		
 		numero4p3 = new JLabel("4");
 		ImageIcon imn4p3 = new ImageIcon(getClass().getResource("/Imagenes/4.png"));
 		ImageIcon iconon4p3 = new ImageIcon(imn4p3.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
 		numero4p3.setIcon(iconon4p3);
+		
 		numero4p4 = new JLabel("4");
 		ImageIcon imn4p4 = new ImageIcon(getClass().getResource("/Imagenes/4.png"));
 		ImageIcon iconon4p4 = new ImageIcon(imn4p4.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
