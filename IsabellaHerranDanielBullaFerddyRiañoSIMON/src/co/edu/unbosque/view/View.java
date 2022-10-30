@@ -3,6 +3,8 @@ package co.edu.unbosque.view;
 import java.awt.BorderLayout;
 
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
 import co.edu.unbosque.controller.Controller;
 
 public class View extends JFrame{
@@ -37,6 +39,15 @@ public class View extends JFrame{
 		panelTerminar.setBounds(0, 540, 700, 160);
 		add(panelTerminar, BorderLayout.CENTER);
 		
+		panelBotones.getB1().addActionListener(control);
+		panelBotones.getB2().addActionListener(control);
+		panelBotones.getB3().addActionListener(control);
+		panelBotones.getB4().addActionListener(control);
+		panelTerminar.getButTerminar().addActionListener(control);
+	}
+	
+	public void mostrarInformacion(String mensaje) {
+		JOptionPane.showMessageDialog(null, mensaje);
 	}
 
 	public PanelNumeros getPanelNumeros() {
