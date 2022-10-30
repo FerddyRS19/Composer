@@ -7,7 +7,6 @@ import java.util.TimerTask;
 
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
-import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
 import co.edu.unbosque.controller.Controller;

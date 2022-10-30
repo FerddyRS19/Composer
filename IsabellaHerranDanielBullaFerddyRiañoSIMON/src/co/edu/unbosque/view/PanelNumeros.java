@@ -2,12 +2,9 @@ package co.edu.unbosque.view;
 
 import java.awt.Image;
 import java.util.Random;
-import java.util.Timer;
-import java.util.TimerTask;
 
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 
