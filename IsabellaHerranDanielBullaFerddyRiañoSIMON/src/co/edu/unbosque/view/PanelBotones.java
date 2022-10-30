@@ -20,7 +20,6 @@ public class PanelBotones extends JPanel{
 	public static final String Numero4 = "Numero4";
 
 	public PanelBotones() {
-		
 		setLayout( new GridLayout(2,4) );
 		
 		b1 = new JButton("Numero1");

@@ -71,7 +71,6 @@ public class Controller implements ActionListener{
 				gui.mostrarError("Fallaste!");
 				System.exit(0);
 			}
-		}
-		
+		}	
 	}
 }

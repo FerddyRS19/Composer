@@ -21,8 +21,6 @@ public class View extends JFrame{
 	private PanelTerminar panelTerminar;
 
 	public View(Controller control) {
-		
-		
 		setSize(700,700);
 		setResizable(false); 
 		setTitle("SIMON"); 
@@ -159,8 +157,4 @@ public class View extends JFrame{
 	public void setPanelTerminar(PanelTerminar panelTerminar) {
 		this.panelTerminar = panelTerminar;
 	}
-
-
-	
-	
 }

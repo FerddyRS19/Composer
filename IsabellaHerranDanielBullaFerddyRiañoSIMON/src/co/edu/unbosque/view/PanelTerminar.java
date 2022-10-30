@@ -29,8 +29,4 @@ public class PanelTerminar extends JPanel{
 	public static String getTerminar() {
 		return TERMINAR;
 	}
-	
-	
-	
-
 }
