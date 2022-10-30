@@ -13,7 +13,7 @@ public class PanelTerminar extends JPanel{
 		setLayout(null);
 		butTerminar = new JButton("Terminar");
 		butTerminar.setActionCommand(TERMINAR);
-		butTerminar.setBounds(580, 100, 120, 25);
+		butTerminar.setBounds(290, 65, 120, 30);
 		add(butTerminar);
 	}
 
