@@ -118,7 +118,7 @@ public class View extends JFrame{
 	}
 	
 	public void mostrarError(String mensaje) {
-		JOptionPane.showMessageDialog(null, mensaje, null, JOptionPane.ERROR_MESSAGE);
+		JOptionPane.showMessageDialog(null, mensaje, "Error", JOptionPane.ERROR_MESSAGE);
 	}
 
 	public PanelNumeros getPanelNumeros() {
