@@ -15,6 +15,7 @@ public class PanelTerminar extends JPanel{
 		butTerminar.setActionCommand(TERMINAR);
 		butTerminar.setBounds(290, 50, 120, 30);
 		add(butTerminar);
+		butTerminar.setEnabled(false);
 	}
 
 	public JButton getButTerminar() {

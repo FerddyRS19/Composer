@@ -59,6 +59,7 @@ public class View extends JFrame{
 				panelBotones.getB2().setEnabled(true);
 				panelBotones.getB3().setEnabled(true);
 				panelBotones.getB4().setEnabled(true);
+				panelTerminar.getButTerminar().setEnabled(true);
 				ImageIcon imn1p1 = new ImageIcon(getClass().getResource("/Imagenes/Gris.png"));
 				ImageIcon iconon1p1 = new ImageIcon(imn1p1.getImage().getScaledInstance(120, 120, Image.SCALE_DEFAULT));
 				panelNumeros.getNumero1p1().setIcon(iconon1p1);
