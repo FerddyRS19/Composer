@@ -24,29 +24,29 @@ public class PanelBotones extends JPanel{
 		
 		b1 = new JButton("1");
 		b1.setActionCommand(Numero1);
-		ImageIcon imb1 = new ImageIcon(getClass().getResource("/Imagenes/1.png"));
-		ImageIcon iconob1 = new ImageIcon(imb1.getImage().getScaledInstance(165, 125, Image.SCALE_DEFAULT));
+		ImageIcon imb1 = new ImageIcon(getClass().getResource("/Imagenes/1boton.png"));
+		ImageIcon iconob1 = new ImageIcon(imb1.getImage().getScaledInstance(190, 190, Image.SCALE_DEFAULT));
 		b1.setIcon(iconob1);
 		b1.setEnabled(false);
 		
 		b2 = new JButton("2");
 		b2.setActionCommand(Numero2);
-		ImageIcon imb2 = new ImageIcon(getClass().getResource("/Imagenes/2.png"));
-		ImageIcon iconob2 = new ImageIcon(imb2.getImage().getScaledInstance(140, 140, Image.SCALE_DEFAULT));
+		ImageIcon imb2 = new ImageIcon(getClass().getResource("/Imagenes/2boton.png"));
+		ImageIcon iconob2 = new ImageIcon(imb2.getImage().getScaledInstance(190, 190, Image.SCALE_DEFAULT));
 		b2.setIcon(iconob2);
 		b2.setEnabled(false);
 		
 		b3 = new JButton("3");
 		b3.setActionCommand(Numero3);
-		ImageIcon imb3 = new ImageIcon(getClass().getResource("/Imagenes/3.png"));
-		ImageIcon iconob3 = new ImageIcon(imb3.getImage().getScaledInstance(140, 140, Image.SCALE_DEFAULT));
+		ImageIcon imb3 = new ImageIcon(getClass().getResource("/Imagenes/3boton.png"));
+		ImageIcon iconob3 = new ImageIcon(imb3.getImage().getScaledInstance(190, 190, Image.SCALE_DEFAULT));
 		b3.setIcon(iconob3);
 		b3.setEnabled(false);
 		
 		b4 = new JButton("4");
 		b4.setActionCommand(Numero4);
-		ImageIcon imb4 = new ImageIcon(getClass().getResource("/Imagenes/4.png"));
-		ImageIcon iconob4 = new ImageIcon(imb4.getImage().getScaledInstance(140, 140, Image.SCALE_DEFAULT));
+		ImageIcon imb4 = new ImageIcon(getClass().getResource("/Imagenes/4boton.png"));
+		ImageIcon iconob4 = new ImageIcon(imb4.getImage().getScaledInstance(190, 190, Image.SCALE_DEFAULT));
 		b4.setIcon(iconob4);
 		b4.setEnabled(false);
 		
